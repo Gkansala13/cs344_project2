@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]){
 	char buffer[2048];
-  if (argc < 2) {
+	if (argc < 2) {
 		int counter = 1;
 		while(counter > 0) {
 			counter = read(0, buffer, sizeof buffer);
